@@ -1,42 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --main: #ffb908;
+  --border: 0.1rem solid rgba(226, 180, 31, 0.2);
+  --boxShadow: 10px 10px 10px -10px rgba(6, 4, 42, 0.831),
+    inset 10px 10px 10px -10px rgba(2, 20, 67, 0.6);
+  --boxShadowHover: 30px 30px 30px -30x rgba(16, 20, 103, 0.8),
+    inset 40px 40px 40px -40x rgba(10, 40, 97, 0.9);
+
+  --MB: 6rem;
+  --Pg: 2rem 9%;
+  --customColor: #07051d;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d13;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+* {
+  font-family: 'Poppins', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  transition: 0.2s ease-in;
+}
+
+*::selection {
+  background: var(--main);
+  color: #000;
+}
+
+body {
+  color: #fff;
+  background: #07051d;
+}
+
+section {
+  padding: 10px 9%;
+  margin-bottom: var(--MB);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
   }
 }
