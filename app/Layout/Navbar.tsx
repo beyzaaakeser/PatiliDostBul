@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Navbar.module.css';
 import Link from 'next/link';
+import { FaRegUser,FaSearch } from "react-icons/fa";
 
 const NavLinks = [
   {
@@ -16,7 +17,7 @@ const NavLinks = [
     LinkTo: '/',
   },
   {
-    LinkText: 'Blogs',
+    LinkText: 'Blog',
     LinkTo: '/',
   },
   {
@@ -40,6 +41,12 @@ const Navbar: React.FC = () => {
             </div>
           ))}
         </div>
+
+          <div className={styles.Navbar_Icons}>
+            <Link href={"/"}><FaRegUser/></Link>
+            <Link href={"/"}><FaSearch/></Link>
+          </div>
+
       </nav>
     </>
   );

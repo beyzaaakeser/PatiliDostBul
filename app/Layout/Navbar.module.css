@@ -4,8 +4,36 @@
   padding-inline: 200px;
   padding-block: 20px;
   border-bottom: 0.2px dashed #ccc;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 .NavbarMain img {
   width: 80px;
   height: 80px;
+}
+
+.NavbarMain .Navbar,
+.NavbarMain .Navbar_Icons {
+  margin-top: 25px;
+}
+
+.Navbar .NavLink {
+  display: inline;
+}
+
+.Navbar .NavLink a {
+  margin-inline: 12px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.Navbar .NavLink a:hover {
+  color: var(--main);
+}
+
+.NavbarMain .Navbar_Icons a {
+  color: #fff;
+  font-size: 28px;
+  margin-inline: 10px;
 }

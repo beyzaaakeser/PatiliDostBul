@@ -1,0 +1,15 @@
+.btn {
+  background-color: var(--main);
+  box-shadow: var(--main) 1 10px 20px -10px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 17px;
+  border-radius: 999px;
+  color: #000;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: var(--main) 0 10px 20px -10px;
+  color: #fff;
+}
