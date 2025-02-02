@@ -1,0 +1,11 @@
+.NavbarMain {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 200px;
+  padding-block: 20px;
+  border-bottom: 0.2px dashed #ccc;
+}
+.NavbarMain img {
+  width: 80px;
+  height: 80px;
+}
