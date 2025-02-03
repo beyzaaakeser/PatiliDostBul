@@ -32,7 +32,7 @@ const Custom: React.FC = () => {
     const intervalId = setInterval(() => {
       const newShuffledData = shuffleArray([...customAdoptionData]);
       setDisplayedData(newShuffledData.slice(0, 2));
-    }, 8000);
+    }, 5000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -43,7 +43,7 @@ const Custom: React.FC = () => {
         <Link href={'/'} className={styles.CustomRow}>
           {displayedData.map((CustomMain) => (
             <div className={styles.CustomBox} key={CustomMain.id}>
-              <h5>{CustomMain.Breed}</h5>
+              
               <img src={CustomMain.ImgUrl} alt={CustomMain.Breed} />
               <div className={styles.CustomBoxContent}>
                 <h6>{CustomMain.Category}</h6>
