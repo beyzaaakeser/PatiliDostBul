@@ -1,0 +1,66 @@
+.Footer {
+  background-color: #000;
+  margin-bottom: 0;
+}
+
+.MainFooter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+
+.MainFooter div:first-child {
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+.MainFooter img {
+    height: 150px;
+    width: 160px;
+}
+
+.MainFooter .LinksFooter{
+    padding: 10px;
+}
+
+.LinksFooter h6{
+    font-weight: 800;
+    margin-block: 10px;
+    font-size: 30px;
+}
+
+.LinksFooter .LinksFooterBox{
+    margin-block: 10px;
+}
+
+.LinksFooter a {
+    color: #fff;
+}
+
+.LinksFooterBox a:hover {
+   margin-left: 5px;
+   color: var(--main);
+}
+
+.FooterMess{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 0.3px dashed #ccc;
+}
+
+.FooterMess h5{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.FooterMess div a{
+    margin-inline: 7px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.FooterMess div a:hover{
+    color: var(--main);
+}

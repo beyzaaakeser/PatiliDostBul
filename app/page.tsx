@@ -4,6 +4,7 @@ import Button from './Components/Button/Button';
 import Available from './Components/PetAdoption/Available';
 import OurProcess from './Components/OurProcess/OurProcess';
 import Custom from './Components/Custom/Custom';
+import Footer from './Layout/Footer/Footer';
 
 export default function Home() {
   return (
@@ -31,6 +32,8 @@ export default function Home() {
       <OurProcess/>
 
       <Custom/>
+
+    
 
 
     </>
