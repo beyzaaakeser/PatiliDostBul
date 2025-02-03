@@ -1,0 +1,33 @@
+.OurProcessRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+
+.OurProcessBox {
+  box-shadow: var(--boxShadow);
+  padding: 20px;
+}
+
+.OurProcessBox:hover {
+  cursor: pointer;
+  box-shadow: var(--boxShadowHover);
+  transform: scale(1.02);
+}
+
+.OurProcessBox h6 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-block: 10px;
+}
+.OurProcessBox p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.OurProcessBox a {
+  color: #fff;
+  border-bottom: 0.1px dashed #fff;
+  width: max-content;
+  font-weight: 800;
+}

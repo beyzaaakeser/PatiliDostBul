@@ -148,6 +148,137 @@ export const petsAdoptionData = [
   },
 ];
 
+export const customAdoptionData = [
+  {
+    id: 1,
+    ImgUrl: '/assets/BY1.jpg',
+    Category: 'Kuş',
+    Breed: 'Sultan Papağanı',
+    Age: '1 yaşında',
+    Gender: 'Dişi',
+    Vaccinated: false,
+    Color: 'Sarı',
+    Size: 'Büyük',
+    Location: 'İstanbul',
+    Description:
+      'Merhaba, ben Sultan! 1 yaşında, enerjik ve oyuncu bir Sultan papağanıyım. Canlı tüylerim, neşeli kişiliğim ve keskin zekâm ile yeni aileme sevgi ve eğlence katmaya hazırım!',
+    Owner_Message:
+      'Şu anda sahiplendirilmek üzere sevimli bir yeşil Sultan papağanı yeni ailesini bekliyor! Onu sahiplenmek ve hayatınıza neşe katmak için hemen bizimle iletişime geçin.',
+  },
+  {
+    id: 2,
+    ImgUrl: '/assets/CY1.jpg',
+    Category: 'Kedi',
+    Breed: 'British Shorthair',
+    Age: '7 Aylık',
+    Gender: 'Dişi',
+    Vaccinated: true,
+    Color: 'Gri - Siyah',
+    Size: 'Küçük',
+    Location: 'Konya',
+    Description:
+      'Merhaba, ben Pofi! 7 Aylık, enerjik ve oyuncu bir British Shorthairim. Canlı tüylerim, neşeli kişiliğim ve keskin zekâm ile yeni aileme sevgi ve eğlence katmaya hazırım!',
+    Owner_Message:
+      'Şu anda sahiplendirilmek üzere sevimli bir British Shorthair yeni ailesini bekliyor! Onu sahiplenmek ve hayatınıza neşe katmak için hemen bizimle iletişime geçin.',
+  },
+  {
+    id: 3,
+    ImgUrl: '/assets/C2.jpg',
+    Category: 'Kedi',
+    Breed: 'Tekir',
+    Age: '6 Aylık',
+    Gender: 'Erkek',
+    Vaccinated: true,
+    Color: 'Beyaz - Siyah',
+    Size: 'Küçük',
+    Location: 'Ankara',
+    Description:
+      'Merhaba, ben Miniş! 6 Aylık, enerjik ve oyuncu bir Tekirim. Canlı tüylerim, neşeli kişiliğim ve keskin zekâm ile yeni aileme sevgi ve eğlence katmaya hazırım!',
+    Owner_Message:
+      'Şu anda sahiplendirilmek üzere sevimli bir Tekir yeni ailesini bekliyor! Onu sahiplenmek ve hayatınıza neşe katmak için hemen bizimle iletişime geçin.',
+  },
+  {
+    id: 4,
+    ImgUrl: '/assets/DY1.jpg',
+    Category: 'Köpek',
+    Breed: 'Golden Retriever',
+    Age: '2 Yaşında',
+    Gender: 'Erkek',
+    Vaccinated: true,
+    Color: 'Sarı',
+    Size: 'Orta',
+    Location: 'İzmir',
+    Description:
+      'Merhaba, ben Asil! 2 Yaşında, enerjik ve oyuncu bir Golden Retrieverım. Canlı tüylerim, neşeli kişiliğim ve keskin zekâm ile yeni aileme sevgi ve eğlence katmaya hazırım!',
+    Owner_Message:
+      'Şu anda sahiplendirilmek üzere sevimli bir Golden Retriever yeni ailesini bekliyor! Onu sahiplenmek ve hayatınıza neşe katmak için hemen bizimle iletişime geçin.',
+  },
+  {
+    id: 5,
+    ImgUrl: '/assets/KY1.jpg',
+    Category: 'Kuş',
+    Breed: 'Güvercin',
+    Age: '1 Yaşında',
+    Gender: 'Dişi',
+    Vaccinated: false,
+    Color: 'Beyaz',
+    Size: 'Orta',
+    Location: 'Nevşehir',
+    Description:
+      'Merhaba, ben Paçalı! 1 Yaşında, sıcakkanlı sevimli bir Güvercinim. Canlı tüylerim, neşeli kişiliğim ile yeni aileme sevgi ve eğlence katmaya hazırım!',
+    Owner_Message:
+      'Şu anda sahiplendirilmek üzere sevimli bir Güvercin yeni ailesini bekliyor! Onu sahiplenmek ve hayatınıza neşe katmak için hemen bizimle iletişime geçin.',
+  },
+  {
+    id: 6,
+    ImgUrl: '/assets/KY2.jpg',
+    Category: 'Kuş',
+    Breed: 'Ördek',
+    Age: '1 Aylık',
+    Gender: 'Dişi',
+    Vaccinated: false,
+    Color: 'Sarı',
+    Size: 'Küçük',
+    Location: 'Konya',
+    Description:
+      'Merhaba, ben Paytak! 1 Aylık, sıcakkanlı sevimli bir Ördeğim. Canlı tüylerim, neşeli kişiliğim ve sevecen hallerim ile yeni aileme sevgi ve eğlence katmaya hazırım!',
+    Owner_Message:
+      'Şu anda sahiplendirilmek üzere sevimli bir Ördek yeni ailesini bekliyor! Onu sahiplenmek ve hayatınıza neşe katmak için hemen bizimle iletişime geçin.',
+  },
+  {
+    id: 7,
+    ImgUrl: '/assets/DY5.jpg',
+    Category: 'Köpek',
+    Breed: 'Toy Poddle',
+    Age: '1 yaşında',
+    Gender: 'Erkek',
+    Vaccinated: true,
+    Color: 'Beyaz',
+    Size: 'Orta',
+    Location: 'Mersin',
+    Description:
+      'Merhaba, ben Afacan! 1 yaşında, sıcakkanlı sevimli bir Toy Poddleım. Canlı tüylerim, neşeli kişiliğim ve sevecen hallerim ile yeni aileme sevgi ve eğlence katmaya hazırım!',
+    Owner_Message:
+      'Şu anda sahiplendirilmek üzere sevimli bir Toy Poddle yeni ailesini bekliyor! Onu sahiplenmek ve hayatınıza neşe katmak için hemen bizimle iletişime geçin.',
+  },
+  {
+    id: 8,
+    ImgUrl: '/assets/DY6.jpg',
+    Category: 'Köpek',
+    Breed: 'Pug',
+    Age: '3 yaşında',
+    Gender: 'Erkek',
+    Vaccinated: true,
+    Color: 'Beyaz - Siyah',
+    Size: 'Orta',
+    Location: 'Antalya',
+    Description:
+      'Merhaba, ben Milo! 1 yaşında, sıcakkanlı sevimli bir Pugım. Canlı tüylerim, neşeli kişiliğim ve sevecen hallerim ile yeni aileme sevgi ve eğlence katmaya hazırım!',
+    Owner_Message:
+      'Şu anda sahiplendirilmek üzere sevimli bir Pug yeni ailesini bekliyor! Onu sahiplenmek ve hayatınıza neşe katmak için hemen bizimle iletişime geçin.',
+  },
+];
+
 export const ProcessData = [
   {
     id: 1,

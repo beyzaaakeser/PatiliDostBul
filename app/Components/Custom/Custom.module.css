@@ -1,0 +1,76 @@
+.Custom .CustomRow {
+  display: flex;
+  gap: 2rem;
+}
+
+.CustomRow .CustomBox {
+  height: 400px;
+  width: 800px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: var(--boxShadow);
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+}
+
+.CustomRow .CustomBox:hover {
+  transform: scale(1.02);
+  box-shadow: var(--boxShadowHover);
+  cursor: pointer;
+}
+
+.CustomBox img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.CustomBox .CustomBoxContent {
+  position: absolute;
+  bottom: -200px;
+  padding: 10px;
+  background: linear-gradient(120deg, var(--customColor), transparent);
+  width: 100%;
+}
+
+.CustomBox:hover .CustomBoxContent {
+  bottom: 0;
+}
+
+.CustomBoxContent h6 {
+  font-weight: 900;
+  font-size: 17px;
+  background: var(--main);
+  color: #000;
+  padding: 3px 13px;
+  width: max-content;
+  border-radius: 20px;
+}
+
+.CustomBoxContent h5 {
+  font-weight: 800;
+  font-size: 25px;
+  margin-block: 5px;
+}
+
+.CustomBoxContent div {
+  display: flex;
+  gap: 2rem;
+}
+
+.CustomBoxContent div p {
+  color: var(--main);
+  font-weight: 800;
+}
+
+
+.CustomBoxContent .Desc {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 3;
+
+}

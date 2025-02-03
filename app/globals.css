@@ -5,8 +5,8 @@
   --border: 0.1rem solid rgba(226, 180, 31, 0.2);
   --boxShadow: 10px 10px 10px -10px rgba(6, 4, 42, 0.831),
     inset 10px 10px 10px -10px rgba(2, 20, 67, 0.6);
-  --boxShadowHover: 30px 30px 30px -30x rgba(16, 20, 103, 0.8),
-    inset 40px 40px 40px -40x rgba(10, 40, 97, 0.9);
+  --boxShadowHover: 30px 30px 30px -30px rgba(16, 20, 103, 0.8),
+    inset 40px 40px 40px -40px rgba(10, 40, 97, 0.9);
 
   --MB: 6rem;
   --Pg: 2rem 9%;
