@@ -1,0 +1,23 @@
+.PetAdoption_Header {
+  display: flex;
+  justify-content: center;
+}
+
+.PetAdoption_HeaderBox {
+  margin-inline: 10px;
+  width: 100px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  padding: 7px 17px;
+  text-align: center;
+}
+.PetAdoption_HeaderBox:hover {
+  background-color: var(--main);
+}
+
+.PetAdoption_HeaderBox a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 17px;
+}

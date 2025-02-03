@@ -1,6 +1,7 @@
 import styles from './page.module.css';
 import { GalleryData } from './Lib/Data';
 import Button from './Components/Button/Button';
+import Available from './Components/PetAdoption/Available';
 
 export default function Home() {
   return (
@@ -22,6 +23,11 @@ export default function Home() {
           </div>
         ))}
       </section>
+
+
+      <Available/>
+
+
     </>
   );
 }
