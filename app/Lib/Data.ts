@@ -147,3 +147,66 @@ export const petsAdoptionData = [
       'Luna, aktif ve sevgi dolu bir aile arıyor. Onu sahiplenmek için bizimle iletişime geçin!',
   },
 ];
+
+export const ProcessData = [
+  {
+    id: 1,
+    ProcessName: 'Evcil Hayvanları Gör',
+    ProcessDetails: [
+      {
+        ProcessDetails_Header:
+          'Sahiplenilmek üzere mevcut olan çeşitli köpek, kedi ve kuş seçeneklerimize göz atın.',
+      },
+      {
+        ProcessDetails_Header:
+          'Her evcil hayvan hakkında fotoğraflar, açıklamalar ve önemli bilgiler içeren detaylı profilleri görüntüleyin.',
+      },
+    ],
+  },
+  {
+    id: 2,
+    ProcessName: 'Sahiplenme Başvurusu Gönder',
+    ProcessDetails: [
+      {
+        ProcessDetails_Header:
+          'İlgilendiğiniz evcil hayvanı seçin ve basit çevrimiçi sahiplenme başvuru formumuzu doldurun.',
+      },
+      {
+        ProcessDetails_Header:
+          'Yaşadığınız yer, evcil hayvanlarla ilgili deneyiminiz ve yeni aile üyesi için planlarınız hakkında bilgi verin.',
+      },
+    ],
+  },
+  {
+    id: 3,
+    ProcessName: 'Tanışma ve Selamlaşma',
+    ProcessDetails: [
+      {
+        ProcessDetails_Header:
+          'Başvurunuz incelendikten sonra, seçtiğiniz evcil hayvanla bir tanışma ve selamlama ayarlayacağız.',
+      },
+      {
+        ProcessDetails_Header:
+          'Evcil hayvanla etkileşim kurarak zaman geçirin, sorular sorun ve yaşam tarzınıza uygun olup olmadığından emin olun.',
+      },
+    ],
+  },
+  {
+    id: 4,
+    ProcessName: 'Yeni Patili Dostunla Hayata Adapte Olmak',
+    ProcessDetails: [
+      {
+        ProcessDetails_Header:
+          'Tanışma ve selamlama iyi giderse ve her iki taraf da rahatsa, sahiplenme evraklarını tamamlayın.',
+      },
+      {
+        ProcessDetails_Header:
+          'Gerekli aşılar, kısırlaştırma/kastrasyon ve mikroçip takılması dahil olmak üzere sahiplenme ücretini ödeyin.',
+      },
+      {
+        ProcessDetails_Header:
+          'Evcil hayvan bakımı hakkında faydalı bilgiler alın ve yeni tüylü dostunuzu alıp birlikte harika bir yolculuğa başlamak için evinize götürün.',
+      },
+    ],
+  },
+];

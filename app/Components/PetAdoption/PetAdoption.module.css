@@ -21,3 +21,94 @@
   font-size: 17px;
   line-height: 17px;
 }
+
+.PetAdoptionRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+.PetAdoptionRow .PetAdoptionBox {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: var(--boxShadow);
+  position: relative;
+  cursor: pointer;
+}
+
+.PetAdoptionBox img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.PetAdoptionBox:hover{
+    transform: scale(1.05); ;
+    cursor: pointer;
+    box-shadow: var(--boxShadowHover);
+}
+
+.PetAdoptionBox:hover img {
+  transform: scale(1.1);
+}
+.PetAdoptionBox h5 {
+  position: absolute;
+  right: 0;
+  font-weight: 800;
+  font-size: 18px;
+  background: linear-gradient(140deg, var(--customColor), transparent);
+  border-bottom-left-radius: 10px;
+  z-index: 100;
+  padding: 4px 8px;
+}
+
+.PetAdoptionBox .PetAdoptionBoxContent {
+  position: absolute;
+  bottom: -200px;
+  background: linear-gradient(140deg, var(--customColor), transparent);
+  padding: 10px;
+}
+
+.PetAdoptionBox:hover .PetAdoptionBoxContent {
+  cursor: pointer;
+  bottom: 0;
+}
+
+.PetAdoptionBoxContent h6 {
+  font-weight: 900;
+  background-color: var(--main);
+  padding: 4px 14px;
+  border-radius: 999px;
+  width: max-content;
+  color: #000;
+}
+
+.PetAdoptionBoxContent .CustomB {
+  display: flex;
+  gap: 2rem;
+  padding-top: 10px;
+}
+
+.PetAdoptionBoxContent .CustomB p {
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.PetAdoptionBoxContent .Desc {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.PetAdoptionBoxContent a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  border-bottom: 1px solid #fff;
+}
