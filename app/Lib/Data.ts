@@ -318,7 +318,7 @@ export const ProcessData = [
       },
       {
         ProcessDetails_Header:
-          'Evcil hayvanla etkileşim kurarak zaman geçirin, sorular sorun ve yaşam tarzınıza uygun olup olmadığından emin olun.',
+          'Evcil hayvanınızla zaman geçirin, yaşam tarzınıza uygun olup olmadığından emin olun.',
       },
     ],
   },
@@ -336,7 +336,7 @@ export const ProcessData = [
       },
       {
         ProcessDetails_Header:
-          'Evcil hayvan bakımı hakkında faydalı bilgiler alın ve yeni tüylü dostunuzu alıp birlikte harika bir yolculuğa başlamak için evinize götürün.',
+          'Yeni tüylü dostunuzu alıp birlikte harika bir yolculuğa başlamak için evinize götürün.',
       },
     ],
   },

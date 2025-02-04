@@ -77,13 +77,22 @@ const Footer: React.FC = () => {
         </div>
 
         <div className={styles.FooterMess}>
-          <h5>&copy; Beyza KESER</h5>
+          <Link className={styles.copy} href={'https://github.com/beyzaaakeser'}>
+            {' '}
+            <h5>&copy; Beyza KESER</h5>
+          </Link>
           <h5>Bütün Hakları Saklıdır.</h5>
 
           <div>
-            <Link href={"https://github.com/beyzaaakeser"}><FaGithub/></Link>
-            <Link href={"https://www.linkedin.com/in/beyzakeser"}><FaLinkedin/></Link>
-            <Link href={"https://medium.com/@beyzakeser"}><FaMedium /></Link>
+            <Link href={'https://github.com/beyzaaakeser'}>
+              <FaGithub />
+            </Link>
+            <Link href={'https://www.linkedin.com/in/beyzakeser'}>
+              <FaLinkedin />
+            </Link>
+            <Link href={'https://medium.com/@beyzakeser'}>
+              <FaMedium />
+            </Link>
           </div>
         </div>
       </section>

@@ -28,7 +28,7 @@
 
 .CustomBox .CustomBoxContent {
   position: absolute;
-  bottom: -200px;
+  bottom: -300px;
   padding: 10px;
   background: linear-gradient(120deg, var(--customColor), transparent);
   width: 100%;
@@ -73,4 +73,11 @@
     -webkit-box-orient: vertical;
     line-clamp: 3;
 
+}
+
+@media screen and (max-width: 768px) {
+  .Custom .CustomRow {
+    flex-wrap: wrap;
+  }
+  
 }

@@ -8,12 +8,11 @@
   width: 100%;
   z-index: 100;
 }
-.NavbarMain.NavbarScrolled{
-  background:var(--customColor);
-  border-bottom:none ;
+.NavbarMain.NavbarScrolled {
+  background: var(--customColor);
+  border-bottom: none;
   padding-inline: 100px;
   padding-block: 10px;
-  
 }
 
 .NavbarMain img {
@@ -44,4 +43,32 @@
   color: #fff;
   font-size: 28px;
   margin-inline: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .NavbarMain {
+    padding-inline: 0px;
+   
+  }
+  .NavbarMain img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .NavbarMain .Navbar,
+  .NavbarMain .Navbar_Icons {
+    margin-top: 10px;
+  }
+
+  .Navbar .NavLink a {
+    display: none;
+    
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .NavbarMain {
+    padding-inline: 20px;
+  }
 }
