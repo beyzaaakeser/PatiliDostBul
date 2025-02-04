@@ -1,26 +1,26 @@
 export const GalleryData = [
   {
     id: 1,
-    ImgUrl: '/assets/BK1.jpg',
+    ImgUrl: '/assets/BK1.webp',
   },
   {
     id: 2,
-    ImgUrl: '/assets/CK1.jpg',
+    ImgUrl: '/assets/CK1.webp',
   },
   {
     id: 3,
-    ImgUrl: '/assets/DK2.jpg',
+    ImgUrl: '/assets/DK2.webp',
   },
   {
     id: 4,
-    ImgUrl: '/assets/CK2.jpg',
+    ImgUrl: '/assets/CK2.webp',
   },
 ];
 
 export const petsAdoptionData = [
   {
     id: 1,
-    ImgUrl: '/assets/BD1.jpg',
+    ImgUrl: '/assets/BD1.webp',
     Category: 'Kuş',
     Breed: 'Macaw',
     Age: '1 yaşında',
@@ -36,7 +36,7 @@ export const petsAdoptionData = [
   },
   {
     id: 2,
-    ImgUrl: '/assets/BD2.jpg',
+    ImgUrl: '/assets/BD2.webp',
     Category: 'Kuş',
     Breed: 'Cockatiel',
     Age: '2 yaşında',
@@ -52,7 +52,7 @@ export const petsAdoptionData = [
   },
   {
     id: 5,
-    ImgUrl: '/assets/CD3.jpg',
+    ImgUrl: '/assets/CD3.webp',
     Category: 'Kedi',
     Breed: 'Sarman',
     Age: '3 yaşında',
@@ -68,7 +68,7 @@ export const petsAdoptionData = [
   },
   {
     id: 6,
-    ImgUrl: '/assets/CD2.jpg',
+    ImgUrl: '/assets/CD2.webp',
     Category: 'Kedi',
     Breed: 'Beyaz Kedi',
     Age: '1 yaşında',
@@ -84,7 +84,7 @@ export const petsAdoptionData = [
   },
   {
     id: 7,
-    ImgUrl: '/assets/Cd1.jpg',
+    ImgUrl: '/assets/Cd1.webp',
     Category: 'Kedi',
     Breed: 'Tekir',
     Age: '2 yaşında',
@@ -100,7 +100,7 @@ export const petsAdoptionData = [
   },
   {
     id: 8,
-    ImgUrl: '/assets/DD1.jpg',
+    ImgUrl: '/assets/DD1.webp',
     Category: 'Köpek',
     Breed: 'Toy Poddle',
     Age: '1.5 yaşında',
@@ -132,7 +132,7 @@ export const petsAdoptionData = [
   },
   {
     id: 10,
-    ImgUrl: '/assets/DD3.jpg',
+    ImgUrl: '/assets/DD3.webp',
     Category: 'Köpek',
     Breed: 'Husky',
     Age: '3 yaşında',
@@ -151,7 +151,7 @@ export const petsAdoptionData = [
 export const customAdoptionData = [
   {
     id: 1,
-    ImgUrl: '/assets/BY1.jpg',
+    ImgUrl: '/assets/BY1.webp',
     Category: 'Kuş',
     Breed: 'Sultan Papağanı',
     Age: '1 yaşında',
@@ -167,7 +167,7 @@ export const customAdoptionData = [
   },
   {
     id: 2,
-    ImgUrl: '/assets/CY1.jpg',
+    ImgUrl: '/assets/CY1.webp',
     Category: 'Kedi',
     Breed: 'British Shorthair',
     Age: '7 Aylık',
@@ -183,7 +183,7 @@ export const customAdoptionData = [
   },
   {
     id: 3,
-    ImgUrl: '/assets/C2.jpg',
+    ImgUrl: '/assets/C2.webp',
     Category: 'Kedi',
     Breed: 'Tekir',
     Age: '6 Aylık',
@@ -199,7 +199,7 @@ export const customAdoptionData = [
   },
   {
     id: 4,
-    ImgUrl: '/assets/DY1.jpg',
+    ImgUrl: '/assets/DY1.webp',
     Category: 'Köpek',
     Breed: 'Golden Retriever',
     Age: '2 Yaşında',
@@ -215,7 +215,7 @@ export const customAdoptionData = [
   },
   {
     id: 5,
-    ImgUrl: '/assets/KY1.jpg',
+    ImgUrl: '/assets/KY1.webp',
     Category: 'Kuş',
     Breed: 'Güvercin',
     Age: '1 Yaşında',
@@ -231,7 +231,7 @@ export const customAdoptionData = [
   },
   {
     id: 6,
-    ImgUrl: '/assets/KY2.jpg',
+    ImgUrl: '/assets/KY2.webp',
     Category: 'Kuş',
     Breed: 'Ördek',
     Age: '1 Aylık',
@@ -247,7 +247,7 @@ export const customAdoptionData = [
   },
   {
     id: 7,
-    ImgUrl: '/assets/DY5.jpg',
+    ImgUrl: '/assets/DY5.webp',
     Category: 'Köpek',
     Breed: 'Toy Poddle',
     Age: '1 yaşında',
@@ -263,7 +263,7 @@ export const customAdoptionData = [
   },
   {
     id: 8,
-    ImgUrl: '/assets/DY6.jpg',
+    ImgUrl: '/assets/DY6.webp',
     Category: 'Köpek',
     Breed: 'Pug',
     Age: '3 yaşında',

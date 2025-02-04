@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
       <section className={styles.Footer}>
         <div className={styles.MainFooter}>
           <div className={styles.FooterImage}>
-            <img src="/assets/logo4N.png" alt="Logo" />
+            <img src="/assets/logo4N.webp" alt="Logo" />
           </div>
 
           <div className={styles.LinksFooter}>
@@ -77,7 +77,10 @@ const Footer: React.FC = () => {
         </div>
 
         <div className={styles.FooterMess}>
-          <Link className={styles.copy} href={'https://github.com/beyzaaakeser'}>
+          <Link
+            className={styles.copy}
+            href={'https://github.com/beyzaaakeser'}
+          >
             {' '}
             <h5>&copy; Beyza KESER</h5>
           </Link>

@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
     <>
       <nav className={`${styles.NavbarMain} ${isScrolled ? styles.NavbarScrolled : ''}`}>
         <Link href={'/'}>
-          <img src="/assets/logo4N.png" alt="Logo" />
+          <img src="/assets/logo4N.webp" alt="Logo" />
         </Link>
 
         <div className={styles.Navbar}>
