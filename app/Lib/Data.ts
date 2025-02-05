@@ -84,7 +84,7 @@ export const petsAdoptionData = [
   },
   {
     id: 7,
-    ImgUrl: '/assets/Cd1.webp',
+    ImgUrl: '/assets/CD1.webp',
     Category: 'Kedi',
     Breed: 'Tekir',
     Age: '2 yaşında',
@@ -183,7 +183,7 @@ export const customAdoptionData = [
   },
   {
     id: 3,
-    ImgUrl: '/assets/C2.webp',
+    ImgUrl: '/assets/C2.jpg',
     Category: 'Kedi',
     Breed: 'Tekir',
     Age: '6 Aylık',

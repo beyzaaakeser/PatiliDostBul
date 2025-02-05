@@ -21,7 +21,7 @@ const CategoriesD = [
 ];
 
 const Available: React.FC = () => {
-  const [selectedCategory, setSelectedCategory] = useState<string>('Hepsi'); // Başlangıçta "Hepsi" seçili
+  const [selectedCategory, setSelectedCategory] = useState<string>('Hepsi'); 
 
   // Kategoriye göre filtreleme
   const filteredPets = selectedCategory === 'Hepsi' 
@@ -38,14 +38,14 @@ const Available: React.FC = () => {
             <div
               className={styles.PetAdoption_HeaderBox}
               key={index}
-              onClick={() => setSelectedCategory(CategoriesName)} // Kategori seçildiğinde state güncelleniyor
+              onClick={() => setSelectedCategory(CategoriesName)}
             >
               <span className={styles.PetAdoption_HeaderBoxSpan}>{CategoriesName}</span> 
             </div>
           ))}
         </div>
 
-        <PetAdoptionBox pets={filteredPets} /> {/* Burada sadece seçilen kategoriye ait hayvanlar geçiyor */}
+        <PetAdoptionBox pets={filteredPets} /> 
       </section>
     </>
   );
