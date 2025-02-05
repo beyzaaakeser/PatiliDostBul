@@ -17,15 +17,15 @@ Sayfanın en altında ise, iletişim bilgilerimiz, sosyal medya bağlantılarım
 
 <h2>Kullanılan Teknolojiler:</h2>
 
-React 19 ve React-DOM 19: Sayfa, modern React sürümleri ile geliştirilmiş. React, bileşen bazlı yapısı ile sayfanın her bir bölümünü bağımsız olarak güncellemeyi sağlar.
+React 19 ve React-DOM 19: React, bileşen bazlı yapısı ile sayfanın her bir bölümünü bağımsız olarak güncellemeyi sağlar.
 
-TypeScript 5: Uygulama, TypeScript kullanılarak yazılmış. Bu, statik tip kontrolü sağladığı için hataların erken aşamalarda yakalanmasını sağlar. Ayrıca, daha sürdürülebilir ve ölçeklenebilir bir kod tabanı oluşturur.
+TypeScript 5: TypeScript statik tip kontrolü sağladığı için hataların erken aşamalarda yakalanmasını sağlar. Ayrıca, daha sürdürülebilir ve ölçeklenebilir bir kod tabanı oluşturur.
 
-Next.js 15.1.6: Sayfa, Next.js framework'u kullanılarak geliştirilmiş. Next.js, sunucu tarafı render ve statik site üretimi gibi özelliklerle sayfanın performansını artırır. SEO dostu ve hızlı bir deneyim sunar.
+Next.js 15.1.6: Sayfa, Next.js framework'u kullanılarak geliştirildi. Next.js, sunucu tarafı render ve statik site üretimi gibi özelliklerle sayfanın performansını artırır. SEO dostu ve hızlı bir deneyim sunar.
 
-ESLint ve ESLint Config Next: Kod kalitesini ve hatalarını kontrol etmek için ESLint yapılandırması kullanılmıştır. Bu, geliştiricilerin tutarlı kod yazmasını sağlar ve olası hataları önceden tespit eder.
+ESLint ve ESLint Config Next: Kod kalitesini ve hatalarını kontrol etmek için ESLint yapılandırması kullanılmıştır. Tutarlı kod yazmasıyı sağlar ve olası hataları önceden tespit eder.
 
-React Icons 5.4.0: Sayfa, etkileşimli öğeler ve simgeler için React Icons kütüphanesini kullanarak modern ve şık ikonlar ekler.
+React Icons 5.4.0: Etkileşimli öğeler ve simgeler için React Icons kütüphanesini kullanarak modern ve şık ikonlar eklendi.
 
 
 <h2>GIF</h2>
