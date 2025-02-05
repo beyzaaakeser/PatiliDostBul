@@ -1,42 +1,60 @@
-<h1>The Seven Wonders Of The World - NextJs & TypeScript</h1>
+<h1>Evcil Hayvan Sahiplenme Websitesi - NextJs & TypeScript</h1>
 
-This project offers an interactive map application for those who want to explore the world's seven wonders. Each wonder's location and mini photos are displayed on the integrated map using the Leaflet library. When users click on these photos, a photo preview is shown with photographer information and location data. The icon above the photos directs them to the detail page, where detailed information, descriptions of the wonder, and a more detailed location map are displayed. Responsive design with TailwindCSS provides a compatible user experience on all devices.
+Evcil hayvan sahiplenme işlemlerini kolaylaştıran, kullanıcı dostu tasarıma sahip, responsive ve gelişmiş teknolojilerle geliştirdiğim web sitemi tanıtıyorum.
 
-<h2>Technical Features:</h2>
+Sayfamızın en üstünde, hayvan sevgisini ve sahiplenme bilincini vurgulayan etkileyici bir sloganımız yer alıyor. Hemen altında, 4 adet özenle seçilmiş, birbirinden sevimli hayvan fotoğrafı sizi karşılıyor. Bu fotoğraflar, sahiplenme çağrımıza dikkat çekerek, sitemizin amacını en iyi şekilde ifade ediyor.
 
-Leaflet.js: Interactive map showing the world map and locations of the wonders. The correct locations with latitude and longitude information of each wonder are located on the map.
+Fotoğrafların altında, sahiplenilmeyi bekleyen tatlı dostlarımızın listesi yer alıyor. Bu liste, hayvanların türüne göre ayrılmış 4 farklı butonla (kedi, köpek, kuş vb.) kolayca filtrelenebiliyor. Hangi butona tıklarsanız, o kategoriye ait hayvanlar listeleniyor.
 
-Next.js: The powerful features of Next.js were used to improve the front end of the application, providing page redirects and performance optimization. Static Site Generation (SSG) was used to load static information about the wonders at the top of the page.
+Her hayvanın üzerine mouse'unuzu getirdiğinizde, cinsiyeti, yaşı, cinsi ve o hayvana ait detaylı bilgiler (sağlık durumu, karakteri vb.) görüntüleniyor. Böylece, aradığınız özelliklere sahip hayvanı kolayca bulabilirsiniz.
 
-React: React, used for dynamic data management, manages interactive elements on the map with user interaction (e.g., photo clicks and redirection to the detail page). With React's state management features, awesome information is dynamically updated with each click.
+Sayfanın aşağısına doğru ilerledikçe, sahiplenme sürecini adım adım anlatan bilgilendirici yazılarla karşılaşıyorsunuz. Bu yazılar, sahiplenme sürecinin nasıl işlediği, nelere dikkat etmeniz gerektiği gibi konularda size rehberlik ediyor.
 
-TailwindCSS: TailwindCSS is a minimalist, flexible, and fast CSS framework that facilitates the application's responsive design and offers a compatible appearance on every device. It is also used for inclusive grid structures and models on the map.
+Daha da aşağıda, 2 adet rastgele seçilmiş hayvanın fotoğrafı ve bilgileri yer alıyor. Bu bölüm, her 5 saniyede bir otomatik olarak yenilenerek, farklı hayvanları keşfetmenizi sağlıyor. Belki de yeni dostunuz burada sizi bekliyordur!
 
-Map Interaction: When users click on any wonder on the map, the photo, location information, and description text of that wonder are displayed. More information about the wonder and a detailed map are provided on the detail page.
+Sayfanın en altında ise, iletişim bilgilerimiz, sosyal medya bağlantılarımız ve diğer önemli bilgilerin yer aldığı footer bölümü bulunuyor.
 
-High Performance: Next.js's server-side rendering (SSR) features ensure that pages load quickly and are SEO-compatible. In addition, unnecessary re-rendering operations are minimized, and the application's performance is optimized.
 
-<h2> The following technologies were used in the frontend development phase of my site: </h2>
+<h2>Kullanılan Teknolojiler:</h2>
 
-- TypeScript & Next.Js
-- Leaflet
-- React-Icons
-- Tailwind Css
+React 19 ve React-DOM 19: Sayfa, modern React sürümleri ile geliştirilmiş. React, bileşen bazlı yapısı ile sayfanın her bir bölümünü bağımsız olarak güncellemeyi sağlar.
+
+TypeScript 5: Uygulama, TypeScript kullanılarak yazılmış. Bu, statik tip kontrolü sağladığı için hataların erken aşamalarda yakalanmasını sağlar. Ayrıca, daha sürdürülebilir ve ölçeklenebilir bir kod tabanı oluşturur.
+
+Next.js 15.1.6: Sayfa, Next.js framework'u kullanılarak geliştirilmiş. Next.js, sunucu tarafı render ve statik site üretimi gibi özelliklerle sayfanın performansını artırır. SEO dostu ve hızlı bir deneyim sunar.
+
+ESLint ve ESLint Config Next: Kod kalitesini ve hatalarını kontrol etmek için ESLint yapılandırması kullanılmıştır. Bu, geliştiricilerin tutarlı kod yazmasını sağlar ve olası hataları önceden tespit eder.
+
+React Icons 5.4.0: Sayfa, etkileşimli öğeler ve simgeler için React Icons kütüphanesini kullanarak modern ve şık ikonlar ekler.
+
 
 <h2>GIF</h2>
 
-![](/public/seven-wonders-gif.gif)
+![](./public/assets/evcilHayvanSahiplenme-gif.gif)
 
-<h2>Main Page</h2>
+<h2>Anasayfa</h2>
 
-![](/public/1.png)
+![](./public/assets/main.png)
 
-<h2>Overview Page</h2>
+![](./public/assets/main2.png)
 
-![](/public/overview.png)
+<h2>Liste</h2>
 
-<h2>Detail Page</h2>
+![](./public/assets/list.png)
 
-![](/public/detail1.png)
+![](./public/assets/list2.png)
 
-![](/public/detail2.png)
+<h2>Filtreleme</h2>
+
+![](./public/assets/filter.png)
+
+<h2>Sürecimiz</h2>
+
+![](./public/assets/surec.png)
+
+<h2>Random Evcil Hayvan Görtüntülenmesi</h2>
+
+![](./public/assets/random.png)
+
+![](./public/assets/randomvefooter.png)
+
