@@ -21,6 +21,9 @@
   font-size: 17px;
   line-height: 17px;
 }
+.PetAdoption_HeaderBox .PetAdoption_HeaderBoxSpan {
+  cursor: pointer;
+}
 
 .PetAdoptionRow {
   display: grid;

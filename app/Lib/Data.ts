@@ -116,7 +116,7 @@ export const petsAdoptionData = [
   },
   {
     id: 9,
-    ImgUrl: '/assets/DD2.jpg',
+    ImgUrl: '/assets/DD2.webp',
     Category: 'Köpek',
     Breed: 'Sibirya Kurdu',
     Age: '2 yaşında',

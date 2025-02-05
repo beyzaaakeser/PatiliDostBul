@@ -1,29 +1,40 @@
 import React from 'react';
 import styles from './PetAdoption.module.css';
-import { petsAdoptionData } from '@/app/Lib/Data';
 import Link from 'next/link';
 
-const PetAdoptionBox = () => {
+interface Pet {
+  id: number;
+  ImgUrl: string;
+  Category: string;
+  Breed: string;
+  Age: string;
+  Gender: string;
+  Description: string;
+}
+
+interface PetAdoptionBoxProps {
+  pets: Pet[]; // pets prop'u bir Pet dizisi olacak
+}
+
+const PetAdoptionBox = ({ pets }: PetAdoptionBoxProps) => {
   return (
-    <>
-      <div className={styles.PetAdoptionRow}>
-        {petsAdoptionData.slice(0,8).map((MainBox) => (
-          <div className={styles.PetAdoptionBox}>
-            <h5>{MainBox.Breed}</h5>
-            <img src={MainBox.ImgUrl} alt={MainBox.Category} />
-            <div className={styles.PetAdoptionBoxContent}>
-              <h6>{MainBox.Category}</h6>
-              <div className={styles.CustomB}>
-                <p>Cinsiyet: {MainBox.Gender}</p>
-                <p>Yaş: {MainBox.Age}</p>
-              </div>
-              <p className={styles.Desc}>{MainBox.Description}</p>
-              <Link href={'/'}>Detayları Gör</Link>
+    <div className={styles.PetAdoptionRow}>
+      {pets.slice(0, 8).map((pet) => (
+        <div className={styles.PetAdoptionBox} key={pet.id}>
+          <h5>{pet.Breed}</h5>
+          <img src={pet.ImgUrl} alt={pet.Category} />
+          <div className={styles.PetAdoptionBoxContent}>
+            <h6>{pet.Category}</h6>
+            <div className={styles.CustomB}>
+              <p>Cinsiyet: {pet.Gender}</p>
+              <p>Yaş: {pet.Age}</p>
             </div>
+            <p className={styles.Desc}>{pet.Description}</p>
+            <Link href={'/'}>Detayları Gör</Link>
           </div>
-        ))}
-      </div>
-    </>
+        </div>
+      ))}
+    </div>
   );
 };
 

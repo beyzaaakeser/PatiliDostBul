@@ -1,43 +1,51 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import styles from './PetAdoption.module.css';
 import Content from '../Content/Content';
-import Link from 'next/link';
 import PetAdoptionBox from './PetAdoptionBox';
+import { petsAdoptionData } from '@/app/Lib/Data';
 
 const CategoriesD = [
   {
     CategoriesName: 'Hepsi',
-    Categories_LinkTo: '/',
   },
   {
     CategoriesName: 'Kuş',
-    Categories_LinkTo: '/',
   },
   {
     CategoriesName: 'Kedi',
-    Categories_LinkTo: '/',
   },
   {
     CategoriesName: 'Köpek',
-    Categories_LinkTo: '/',
   },
 ];
 
 const Available: React.FC = () => {
+  const [selectedCategory, setSelectedCategory] = useState<string>('Hepsi'); // Başlangıçta "Hepsi" seçili
+
+  // Kategoriye göre filtreleme
+  const filteredPets = selectedCategory === 'Hepsi' 
+    ? petsAdoptionData 
+    : petsAdoptionData.filter(pet => pet.Category === selectedCategory);
+
   return (
     <>
       <section className={styles.PetAdoption}>
         <Content h6Text="Sahiplenmek İçin Uygun Hayvanlar" />
 
         <div className={styles.PetAdoption_Header}>
-          {CategoriesD.map(({ CategoriesName, Categories_LinkTo }, index) => (
-            <div className={styles.PetAdoption_HeaderBox} key={index}>
-              <Link href={Categories_LinkTo}>{CategoriesName}</Link>
+          {CategoriesD.map(({ CategoriesName }, index) => (
+            <div
+              className={styles.PetAdoption_HeaderBox}
+              key={index}
+              onClick={() => setSelectedCategory(CategoriesName)} // Kategori seçildiğinde state güncelleniyor
+            >
+              <span className={styles.PetAdoption_HeaderBoxSpan}>{CategoriesName}</span> 
             </div>
           ))}
         </div>
 
-       <PetAdoptionBox/>
+        <PetAdoptionBox pets={filteredPets} /> {/* Burada sadece seçilen kategoriye ait hayvanlar geçiyor */}
       </section>
     </>
   );
